@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and linking external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preconnect to Google Fonts and load Pacifico font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Favicon and apple touch icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/Logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/Logo/favicon-16x16.png">
+    <link rel="manifest" href="./Images/Logo/site.webmanifest">
+    <!-- Theme color settings -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Linking external CSS files for styling different pages -->
+    <link rel="stylesheet" href="Home.css">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="Products.css">
+    <link rel="stylesheet" href="About us.css">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="stylesheet" href="Loyalty Registration.css">
+</head>
+<body class="background-image">
+    <!-- Header section -->
+    <header class="header">
+        <!-- Site title or logo -->
+        <div class="text">
+            <p>Urban Heavens</p>
+        </div>
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Dairy.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="Cosmetics.html">Cosmetics</a></li>
+                <li><a href="About us.html">About us</a></li>
+                <li><a href="Order.html">Orders</a></li>
+                <li><a href="Loyalty Registration.html">Loyalty</a></li>
+            </ul>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar">
+            <input type="search" placeholder="Search..." class="search-input">
+            <button class="button">Search</button>
+        </div>
+    </header>
+    <hr>
+    <!-- Main content section -->
+    <main>
+        <!-- Categories and product selection -->
+        <section class="category">
+            <!-- Dairy products section -->
+            <div class="orders">
+                <fieldset>
+                    <legend>Dairy products</legend>
+                    <select>
+                        <option>Ambewela Fresh Milk</option>
+                        <option>Amul Slim 'n' Trim Skimmed Milk</option>
+                        <option>Anchor Full Cream Milk Powder - 1kg</option>
+                        <option>Kraft processed cheddar cheese</option>
+                        <option>Kotmale Swiss Cheese 200g</option>
+                        <option>Mozzarella Cheese - 500g</option>
+                        <option>Anchor Butter Salted, 227g</option>
+                        <option>Anchor Unsalted Butter</option>
+                        <option>Kotmale Drinking Yoghurt</option>
+                        <option>Fruttyfroyo Greek Yoghurt Styled 350g</option>
+                        <option>Cage free eggs</option>
+                        <option>Kotmale Chocolate ice-cream 1L</option>
+                        <option>Kotmale Vanilla ice-cream 1L</option>
+                        <option>Imorich Chocolate Chip ice-cream 1L</option>
+                    </select>
+                    <br><br>
+                    <label for="quality">Quantity:</label>
+                    <input type="number" min="0" placeholder="0">
+                    <br><br>
+                    <button type="reset" class="order-button">Clear</button>
+                    <button type="submit" class="order-button">Order Now</button>
+                </fieldset>
+            </div>
+            <!-- Vegetables section -->
+            <div class="orders">
+                <fieldset>
+                    <legend>Vegetables</legend>
+                    <select>
+                        <option>Beetroot 250g</option>
+                        <option>Carrot 500g</option>
+                        <option>Coconut 3pcs</option>
+                        <option>Cucumber 400g</option>
+                        <option>Garlic 250g</option>
+                        <option>Lime 250g</option>
+                        <option>Potatoes 500g</option>
+                        <option>Red onions 250g</option>
+                        <option>Tomatoes 500g</option>
+                        <option>Pumpkins 500g</option>
+                    </select>
+                    <label for="quality">Quantity:</label>
+                    <input type="number" min="0" placeholder="0">
+                    <br><br>
+                    <button type="reset" class="order-button">Clear</button>
+                    <button type="submit" class="order-button">Order Now</button>
+                </fieldset>
+            </div>
+            <!-- Cosmetics products section -->
+            <div class="orders">
+                <fieldset>
+                    <legend>Cosmetics Products</legend>
+                    <select>
+                        <option>Acne Treatment Face-Wash cleanser</option>
+                        <option>Eye cream</option>
+                        <option>Facial Oil</option>
+                        <option>Facial Toner</option>
+                        <option>Moisturizing cream</option>
+                        <option>Spot treatment</option>
+                        <option>Sunscreen</option>
+                        <option>CeraVe Baby wash & Shampoo</option>
+                    </select>
+                    <label for="quality">Quantity:</label>
+                    <input type="number" min="0" placeholder="0">
+                    <br><br>
+                    <button type="reset" class="order-button">Clear</button>
+                    <button type="submit" class="order-button">Order Now</button>
+                </fieldset>
+            </div>
+        </section>
+        <!-- Customer information section -->
+        <section class="customer-info">
+            <fieldset>
+                <legend>Customer information</legend>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Address">
+                <input type="tel" placeholder="Phone number">
+                <input type="email" placeholder="Email">
+                <select>
+                    <option>Cash</option>
+                    <option>Card</option>
+                </select>
+                <button type="submit" class="order-button">Check out</button>
+            </fieldset>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <!-- About us section -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>We are a company providing the best products and services to our customers. Follow us on social media accounts to stay updated!!!</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="./Images/Footer/facebook_logo_icon_.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_twitter_bird_icon_.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/instagram logo icon.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_linkedin_icon_.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <!-- Quick links section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./Home.html">Home</a><br></li>
+                    <li><a href="./Dairy.html">Dairy Products</a><br></li>
+                    <li><a href="./Vegetables.html">Vegetable Products</a><br></li>
+                    <li><a href="./Cosmetics.html">Cosmetic Products</a><br></li>
+                    <li><a href="./About us.html">About Us</a><br></li>
+                    <li><a href="./Order.html">Order Page</a><br></li>
+                    <li><a href="./Loyalty Registration.html">Loyalty and Registration</a></li>
+                </ul>
+            </div>
+            <!-- Contact us section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>321, Urban Street, Sri Lanka</p>
+                <p>+94 555 741 7890</p>
+                <p>urbanheavens@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Urban Heavens. All Rights Received</p>
+        </div>
+    </footer>
+</body>
+</html>
